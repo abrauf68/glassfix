@@ -38,7 +38,7 @@
                                 <h3 class="odometer" data-count="600">00</h3>
                                 <span>+</span>
                             </div>
-                            <p class="counter-one__text">Team member</p>
+                            <p class="counter-one__text">Teammitglieder</p>
                         </div>
                     </li>
                     <li class="wow fadeInLeft" data-wow-delay="200ms">
@@ -47,7 +47,7 @@
                                 <h3 class="odometer" data-count="2">00</h3>
                                 <span>k+</span>
                             </div>
-                            <p class="counter-one__text">Service Complete</p>
+                            <p class="counter-one__text">Service abgeschlossen</p>
                         </div>
                     </li>
                     <li class="wow fadeInRight" data-wow-delay="300ms">
@@ -56,7 +56,7 @@
                                 <h3 class="odometer" data-count="53">00</h3>
                                 <span>+</span>
                             </div>
-                            <p class="counter-one__text">Winning award</p>
+                            <p class="counter-one__text">Gewinnerpreis</p>
                         </div>
                     </li>
                     <li class="wow fadeInRight" data-wow-delay="400ms">
@@ -65,7 +65,7 @@
                                 <h3 class="odometer" data-count="3">00</h3>
                                 <span>k+</span>
                             </div>
-                            <p class="counter-one__text">Client Review</p>
+                            <p class="counter-one__text">Kundenbewertung</p>
                         </div>
                     </li>
                 </ul>

@@ -13,7 +13,7 @@
                             <a href="{{ route('frontend.home') }}"><img height="50px" src="{{ asset('assets/images/logo.webp') }}" alt="{{ env('APP_NAME') }}" /></a>
                         </div>
                         <div class="content-box">
-                            <h4>About Us</h4>
+                            <h4>Über Uns</h4>
                             <p>Unser Ziel ist es, Steinschlag-Reparaturen, den Austausch von Windschutzscheiben und die komplette Abwicklung mit der Versicherung so unkompliziert und effizient wie möglich zu gestalten.</p>
                         </div>
                         <div class="button-group mt-4 text-center">

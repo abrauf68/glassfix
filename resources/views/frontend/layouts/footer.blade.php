@@ -150,7 +150,7 @@
                         <div class="site-footer__bottom-inner">
                             <div class="site-footer__copyright">
                                 <p class="site-footer__copyright-text">Copyright © {{ date('Y') }} <a href="{{ route('frontend.about') }}">Glasfix 24</a>.
-                                    All rights reserved.</p>
+                                    Alle Rechte vorbehalten.</p>
                             </div>
                             <div class="site-footer__bottom-menu-box">
                                 <ul class="list-unstyled site-footer__bottom-menu">

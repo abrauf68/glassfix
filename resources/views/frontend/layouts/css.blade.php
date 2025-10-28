@@ -29,23 +29,23 @@
 <link rel="stylesheet" href="{{ asset('assets/css/module-css/counter.css') }}" />
 <link rel="stylesheet" href="{{ asset('assets/css/module-css/services.css') }}" />
 <link rel="stylesheet" href="{{ asset('assets/css/module-css/about.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/brand.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/gallery.css') }}" />
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/brand.css') }}" /> --}}
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/gallery.css') }}" /> --}}
 <link rel="stylesheet" href="{{ asset('assets/css/module-css/faq.css') }}" />
 <link rel="stylesheet" href="{{ asset('assets/css/module-css/testimonial.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/team.css') }}" />
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/team.css') }}" /> --}}
 <link rel="stylesheet" href="{{ asset('assets/css/module-css/contact.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/pricing.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/blog.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/sliding-text.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/why-choose.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/banner.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/cta.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/feature.css') }}" />
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/pricing.css') }}" /> --}}
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/blog.css') }}" />
+<link rel="stylesheet" href="{{ asset('assets/css/module-css/sliding-text.css') }}" /> --}}
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/why-choose.css') }}" /> --}}
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/banner.css') }}" /> --}}
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/cta.css') }}" /> --}}
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/feature.css') }}" /> --}}
 <link rel="stylesheet" href="{{ asset('assets/css/module-css/page-header.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/project.css') }}" />
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/project.css') }}" /> --}}
 <link rel="stylesheet" href="{{ asset('assets/css/module-css/error-page.css') }}" />
-<link rel="stylesheet" href="{{ asset('assets/css/module-css/shop.css') }}" />
+{{-- <link rel="stylesheet" href="{{ asset('assets/css/module-css/shop.css') }}" /> --}}
 
 <!-- template styles -->
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
