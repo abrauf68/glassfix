@@ -84,19 +84,19 @@
                                     <li>
                                         <a href="{{ route('frontend.terms-and-conditions') }}">
                                             <span class="icon-double-arrow-right"></span>
-                                            <p>General Terms and Conditions (GTC)</p>
+                                            <p>Allgemeine Geschäftsbedingungen (AGB)</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('frontend.privacy-policy') }}">
                                             <span class="icon-double-arrow-right"></span>
-                                            <p>Privacy Policy</p>
+                                            <p>Datenschutzbestimmungen</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ route('frontend.imprint') }}">
                                             <span class="icon-double-arrow-right"></span>
-                                            <p>Imprint</p>
+                                            <p>Impressum</p>
                                         </a>
                                     </li>
                                 </ul>
@@ -154,9 +154,9 @@
                             </div>
                             <div class="site-footer__bottom-menu-box">
                                 <ul class="list-unstyled site-footer__bottom-menu">
-                                    <li><a href="{{ route('frontend.terms-and-conditions') }}">General Terms and Conditions (GTC)</a></li>
-                                    <li><a href="{{ route('frontend.privacy-policy') }}">Privacy Policy</a></li>
-                                    <li><a href="{{ route('frontend.imprint') }}">Imprint</a></li>
+                                    <li><a href="{{ route('frontend.terms-and-conditions') }}">Allgemeine Geschäftsbedingungen (AGB)</a></li>
+                                    <li><a href="{{ route('frontend.privacy-policy') }}">Datenschutzbestimmungen</a></li>
+                                    <li><a href="{{ route('frontend.imprint') }}">Impressum</a></li>
                                 </ul>
                             </div>
                         </div>

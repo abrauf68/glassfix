@@ -112,4 +112,37 @@ class HomeController extends Controller
             throw $th;
         }
     }
+
+    public function privacyPolicy()
+    {
+        try {
+            return view('frontend.pages.privacy-policy');
+        } catch (\Throwable $th) {
+            Log::error('Privacy Policy View Failed', ['error' => $th->getMessage()]);
+            return redirect()->back()->with('error', "Something went wrong! Please try again later");
+            throw $th;
+        }
+    }
+
+    public function termsConditions()
+    {
+        try {
+            return view('frontend.pages.terms');
+        } catch (\Throwable $th) {
+            Log::error('Term View Failed', ['error' => $th->getMessage()]);
+            return redirect()->back()->with('error', "Something went wrong! Please try again later");
+            throw $th;
+        }
+    }
+
+    public function imprint()
+    {
+        try {
+            return view('frontend.pages.imprint');
+        } catch (\Throwable $th) {
+            Log::error('Imprint View Failed', ['error' => $th->getMessage()]);
+            return redirect()->back()->with('error', "Something went wrong! Please try again later");
+            throw $th;
+        }
+    }
 }
