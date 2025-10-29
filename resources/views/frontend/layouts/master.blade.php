@@ -7,6 +7,70 @@
     @include('frontend.layouts.meta')
     @include('frontend.layouts.css')
     @yield('css')
+    <style>
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #007bff, #00bfff);
+            color: #fff;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+            z-index: 9999;
+        }
+
+        .scroll-to-top i {
+            color: #fff;
+            font-size: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .scroll-to-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 123, 255, 0.5);
+        }
+
+        .scroll-to-top:hover i {
+            transform: translateY(-3px);
+        }
+
+        .scroll-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Optional subtle pulse animation */
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.6);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(0, 123, 255, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+            }
+        }
+
+        .scroll-to-top__wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: pulse 2s infinite;
+        }
+    </style>
+
 </head>
 
 
@@ -16,10 +80,15 @@
     <div class="preloader">
         <div class="preloader__image" style="background-image: url({{ asset('assets/images/logo.webp') }});"></div>
     </div>
-    <!-- /.preloader --><a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+    <!-- /.preloader -->
+    {{-- <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
         <span class="scroll-to-top__text"> Zurück nach oben</span>
+    </a> --}}
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
     </a>
+
     <div class="page-wrapper">
         <!-- Main Header Start -->
         @include('frontend.layouts.header')
@@ -27,7 +96,6 @@
 
         <!--Page Header Start-->
         @if (request()->routeIs('frontend.home'))
-
         @else
             <section class="page-header">
                 <div class="page-header__wrap">
@@ -41,9 +109,11 @@
                             <div class="page-header__shape-3"></div>
                             <div class="page-header__shape-4"></div>
                             <div class="page-header__img-1">
-                                <img style="max-height: 500px;" src="{{ asset('assets/images/team/about-1.png') }}" alt="{{ env('APP_NAME') }}">
+                                <img style="max-height: 500px;" src="{{ asset('assets/images/team/about-1.png') }}"
+                                    alt="{{ env('APP_NAME') }}">
                                 <div class="page-header__shape-5">
-                                    <img src="{{ asset('assets/images/shapes/page-header-shape-5.png') }}" alt="{{ env('APP_NAME') }}">
+                                    <img src="{{ asset('assets/images/shapes/page-header-shape-5.png') }}"
+                                        alt="{{ env('APP_NAME') }}">
                                 </div>
                             </div>
                             <h2>@yield('title')</h2>
@@ -98,7 +168,7 @@
 
             <div class="logo-box">
                 <a href="{{ route('frontend.home') }}" aria-label="logo image">
-                    <img src="{{ asset('assets/images/logo.webp')}}" width="135" alt="{{ env('APP_NAME') }}" />
+                    <img src="{{ asset('assets/images/logo.webp') }}" width="135" alt="{{ env('APP_NAME') }}" />
                 </a>
             </div>
             <!-- /.logo-box -->
