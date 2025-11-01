@@ -78,7 +78,7 @@
     <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url({{ asset('assets/images/logo.webp') }});"></div>
+        <div class="preloader__image" style="background-image: url({{ asset('assets/images/loader-logo.png') }});"></div>
     </div>
     <!-- /.preloader -->
     {{-- <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
@@ -168,7 +168,7 @@
 
             <div class="logo-box">
                 <a href="{{ route('frontend.home') }}" aria-label="logo image">
-                    <img src="{{ asset('assets/images/logo.webp') }}" width="135" alt="{{ env('APP_NAME') }}" />
+                    <img src="{{ asset('assets/images/logo-dark.png') }}" width="135" alt="{{ env('APP_NAME') }}" />
                 </a>
             </div>
             <!-- /.logo-box -->

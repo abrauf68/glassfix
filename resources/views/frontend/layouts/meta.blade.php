@@ -6,7 +6,7 @@
 <meta name="keywords" content="@yield('keywords')">
 <meta name="author" content="@yield('author')">
 <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/logo.webp') }}" />
-<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/logo.webp') }}" />
-<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/logo.webp') }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon.png') }}" />
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon.png') }}" />
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon.png') }}" />
 <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest') }}" />

@@ -9,7 +9,7 @@
                         <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__about">
                                 <div class="footer-widget__about-logo">
-                                    <a href="{{ route('frontend.home') }}"><img height="50px" src="{{ asset('assets/images/logo.webp') }}"
+                                    <a href="{{ route('frontend.home') }}"><img height="50px" src="{{ asset('assets/images/logo-dark.png') }}"
                                             alt="{{ env('APP_NAME') }}"></a>
                                 </div>
                                 <div class="footer-widget__contact-info">

@@ -6,7 +6,7 @@
                     <div class="main-menu__wrapper-inner">
                         <div class="main-menu__left">
                             <div class="main-header__logo">
-                                <a href="{{ route('frontend.home') }}"><img height="50px" src="{{ asset('assets/images/logo.webp') }}" alt="{{ env('APP_NAME') }}"></a>
+                                <a href="{{ route('frontend.home') }}"><img height="50px" src="{{ asset('assets/images/logo-11.png') }}" alt="{{ env('APP_NAME') }}"></a>
                             </div>
                         </div>
                         <div class="main-menu__main-menu-box">

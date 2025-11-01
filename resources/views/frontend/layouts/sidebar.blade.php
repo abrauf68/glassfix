@@ -10,7 +10,7 @@
                 <div class="sidebar-info-contents">
                     <div class="content-inner">
                         <div class="logo">
-                            <a href="{{ route('frontend.home') }}"><img height="50px" src="{{ asset('assets/images/logo.webp') }}" alt="{{ env('APP_NAME') }}" /></a>
+                            <a href="{{ route('frontend.home') }}"><img height="50px" src="{{ asset('assets/images/logo-11.png') }}" alt="{{ env('APP_NAME') }}" /></a>
                         </div>
                         <div class="content-box">
                             <h4>Über Uns</h4>
